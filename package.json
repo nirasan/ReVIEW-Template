@@ -20,7 +20,7 @@
   "scripts": {
     "global-bundler": "gem install bundler",
     "global": "npm run global-bundler",
-    "postinstall": "bundle install",
+    "postinstall": "bundle install --path vendor/bundle",
     "pdf": "grunt pdf",
     "md": "grunt markdown",
     "html": "grunt html",
